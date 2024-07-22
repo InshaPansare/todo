@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="">todo</a></div>
+            <UL>
+                <li><a href="login.html">Home</a></li>
+            </UL>
+        </div>
+    </nav> -->
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List 
+                <img src="images/icon.png"></i>
+            </h2> 
+            <form action="">
+            <div class="apply_box">
+            <div class="form_container">
+            <div class="form_control">
+                <label for="date"> Date</label>
+                <input value="2024-07-15" type="date" id="date" name="date" />
+            </div>
+            </div>
+            </div>
+        </form>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your text">
+                <button onclick=addTask()>Add</button>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
